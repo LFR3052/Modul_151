@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "toastr";
 
 body {
   background-color: #fafafa;
@@ -11,19 +12,20 @@ body {
   border-bottom: 1px solid rgba(0,0,0,.0975);
   height: 77px;
 }
-.core-sprite{
+
+.core-sprite {
   background-image: image-url("core-sprite-2x.png");
   background-size: 405px 379px;
   background-repeat: no-repeat;
 }
 
-.navbar-brand{
+.navbar-brand {
   background-position: -176px 0;
   height: 35px;
   width: 176px;
 }
 
-.hide-text{
+.hide-text {
   display: block;
   overflow: hidden;
   text-indent: 200%;
@@ -66,8 +68,8 @@ body {
   width: 24px;
 }
 
-.nav-item:not(first-child){
-margin-left: 30px;
+.nav-item:not(first-child) {
+  margin-left: 30px;
 }
 
 .box {
@@ -84,6 +86,7 @@ margin-left: 30px;
   width: 175px;
 }
 // Landing
+
 .landing-left {
   .dummy-phone {
     background-image: image-url("dummy-phone-2x.png");
@@ -95,6 +98,7 @@ margin-left: 30px;
     margin-left: -35px;
     margin-right: -15px;
   }
+
   .screen-shot {
     position: absolute;
     top: 99px;
@@ -166,6 +170,6 @@ footer .nav-item {
 
   .carousel-item:not(.active) {
     position: absolute;
-    top: 0px;
+    top: 0;
   }
 }
