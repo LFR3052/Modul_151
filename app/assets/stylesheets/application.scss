@@ -12,20 +12,19 @@ body {
   border-bottom: 1px solid rgba(0,0,0,.0975);
   height: 77px;
 }
-
-.core-sprite {
+.core-sprite{
   background-image: image-url("core-sprite-2x.png");
   background-size: 405px 379px;
   background-repeat: no-repeat;
 }
 
-.navbar-brand {
+.navbar-brand{
   background-position: -176px 0;
   height: 35px;
   width: 176px;
 }
 
-.hide-text {
+.hide-text{
   display: block;
   overflow: hidden;
   text-indent: 200%;
@@ -68,8 +67,8 @@ body {
   width: 24px;
 }
 
-.nav-item:not(first-child) {
-  margin-left: 30px;
+.nav-item:not(first-child){
+margin-left: 30px;
 }
 
 .box {
@@ -86,7 +85,6 @@ body {
   width: 175px;
 }
 // Landing
-
 .landing-left {
   .dummy-phone {
     background-image: image-url("dummy-phone-2x.png");
@@ -98,7 +96,6 @@ body {
     margin-left: -35px;
     margin-right: -15px;
   }
-
   .screen-shot {
     position: absolute;
     top: 99px;
@@ -170,6 +167,98 @@ footer .nav-item {
 
   .carousel-item:not(.active) {
     position: absolute;
-    top: 0;
+    top: 0px;
+  }
+}
+.profile-wrapper {
+  padding: 60px 0;
+  border-bottom: 1px solid #efefef;
+
+  .username {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 200;
+  }
+
+  .email {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.common-btn {
+  height: 28px;
+  line-height: 24px;
+  padding: 0 24px;
+  border-color: #dbdbdb;
+  font-size: 14px;
+}
+
+.edit-profile-btn {
+  margin: 5px 0 0 15px;
+  font-weight: bold;
+}
+
+.setting {
+  margin: 7px 0 0 10px;
+  background-color: transparent;
+  background-position: -125px -355px;
+  height: 24px;
+  width: 24px;
+  border: none;
+}
+.setting:hover {
+  cursor: pointer;
+}
+
+
+.edit-profile-wrapper {
+  margin: 60px 0 0;
+
+  .left-col {
+    border: 1px solid #dbdbdb;
+    padding: 0;
+    background-color: white;
+
+    .list-group-item {
+      border: none;
+      color: #262626;
+      border-radius: 0;
+      font-size: 16px;
+      border-left: 2px solid transparent;
+    }
+
+    .list-group-item:first-child {
+      font-weight: bold;
+      border-left-color: #262626;
+    }
+
+    .list-group-item:not(:first-child):hover {
+      border-left-color: #dbdbdb;
+    }
+  }
+
+  .right-col {
+    border: 1px solid #dbdbdb;
+    border-left: none;
+    background-color: white;
+
+    .username-img {
+      margin: 32px 0;
+
+      .col-sm-9 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+
+    .form-group {
+      font-size: 16px;
+    }
   }
 }
